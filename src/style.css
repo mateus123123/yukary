@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --main-color: #c9154bde;
+}
+
+#tela{
+    background: #ebebeb;
+    background-image: url('/src/vagalumes.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+}
+
+#question_box{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 10px;
+    background: var(--main-color);
+    font-size: 3em;
+    padding: 20px 0px 20px 0px;
+    width: 90%;
+}
+
+button img{
+    width: 50px;
+}
+
+#cRecado{
+    position: absolute;
+    display: none;
+    font-size: 1.5em;
+    padding: 20px 10px 10px 20px;
+    width: 90%;
+    height: 100%;
+    color: rgb(34, 34, 34);
+}
+#cRecado h1{
+    margin-bottom: 20px;
+}
+#cRecado p {
+    margin-bottom: 40px;
+}
+#cFoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+#cFoto p {
+    font-size: 2em;
+    margin: 0px 10px 0px 10px;
+    color: var(--main-color);
+}
+.foto{
+    border: 5px solid var(--main-color);
+    background-size: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#mat{
+    background-image: url('/src/mat.jpeg');
+    
+}
+#yuk{
+    background-image: url('/src/yuk.jpeg');
+}
+
+#question_input{
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: 20%;
+    border: none;
+    background: #ebebeb;
+    border-bottom: 5px solid gray;
+    width: 90%;
+    height: 70px;
+    color: gray;
+}
+
+#question_input:focus::placeholder{
+    color: silver;
+}
