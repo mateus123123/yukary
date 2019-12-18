@@ -80,11 +80,11 @@ button img{
 }
 
 #mat{
-    background-image: url('/src/mat.jpeg');
+    background-image: url('./src/mat.jpeg');
     
 }
 #yuk{
-    background-image: url('/src/yuk.jpeg');
+    background-image: url('./src/yuk.jpeg');
 }
 
 #question_input{
